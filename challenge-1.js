@@ -24,8 +24,9 @@ const leo = {
         postal_code: leoPostal,
     }
 };
+
 const sarah = {
-    name: sarahName,
+    name: sarahName.trim(),
     age: 62,
     access_id: '6b279ae5-5657-4240-80e9-23f6b635f7a8',
     balance: sarahBalance,
@@ -35,5 +36,5 @@ const sarah = {
         postal_code: sarahPostal,
     }
 };
-console.log(leo, leo.address)
-console.log(sarah, sarah.address)
+console.log(leo)
+console.log(sarah)
